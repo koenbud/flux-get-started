@@ -123,6 +123,7 @@ metadata:
   labels:
     app: metallb
     component: speaker
+    daemonsetKoenVersion: 1
 spec:
   selector:
     matchLabels:
