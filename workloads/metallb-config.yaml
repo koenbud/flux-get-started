@@ -3,6 +3,8 @@ kind: ConfigMap
 metadata:
   namespace: metallb-system
   name: config
+  labels:
+    configmap-version: 1
 data:
   config: |
     address-pools:
