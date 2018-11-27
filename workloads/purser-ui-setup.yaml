@@ -6,7 +6,7 @@ metadata:
     run: purser-ui
     app: purser
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - port: 4200
     protocol: TCP
