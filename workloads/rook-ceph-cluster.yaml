@@ -68,10 +68,10 @@ spec:
   storage:
     useAllNodes: false
     nodes:
-    - node3.example.com
-    - node4.example.com
-    - node5.example.com
-    - node6.example.com
+    - node3
+    - node4
+    - node5
+    - node6
     useAllDevices: false
     config:
       databaseSizeMB: "1024"
