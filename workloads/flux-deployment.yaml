@@ -100,7 +100,7 @@ spec:
         - --git-branch=master
         
         # git-poll-interval
-        - --git-poll-interval=60
+        - --git-poll-interval=1 minute
 
         # include these next two to connect to an "upstream" service
         # (e.g., Weave Cloud). The token is particular to the service.
