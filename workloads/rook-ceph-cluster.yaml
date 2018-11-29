@@ -67,11 +67,7 @@ spec:
     enabled: true
   storage:
     useAllNodes: false
-    nodes:
-      - node3
-      - node4
-      - node5
-      - node6
+    nodes: [ "node3", "node4", "node5", "node6"]
     useAllDevices: false
     config:
       databaseSizeMB: "1024"
